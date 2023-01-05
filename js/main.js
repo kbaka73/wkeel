@@ -10,12 +10,6 @@ window.onscroll = function (){
       }
       started = true;
     }
-    // scroll up
-    if(this.scrollY >= 300){
-        span.classList.add("show");
-    }else{
-        span.classList.remove("show");
-    }
 };
 
 function startCount(el){
